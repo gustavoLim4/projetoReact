@@ -1,0 +1,45 @@
+.footer {
+    background-color: #222;
+    padding: 30px 0px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2.1em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.insta {
+    margin: 0px 20px;
+}
+.face:hover {
+    color: #6384c6;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.linkedin:hover {
+    color: rgb(171, 81, 165);
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.insta:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: rgb(249, 206, 52);
+    transition: 0.5s;
+}
+
+.costs {
+    color: white;
+    text-align: center;
+}
+.costs span {
+    color: #ffbb33;
+    font-weight: bold;
+
+}
