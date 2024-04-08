@@ -5,8 +5,9 @@ import Company from "./components/pages/Company";
 import Footer from "./components/layout/Footer";
 import Container from "./components/layout/Container";
 import NavBar from "./components/layout/NavBar";
-import Project from "./components/pages/Project";
-
+import Project from "./components/pages/NewProject";
+import Projects from "./components/pages/Projects";
+import Projectores from "./components/pages/Projectores";
 
 function App() {
   return (
@@ -18,9 +19,11 @@ function App() {
 
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/project" element={<Project />} />
-          <Route exact path="/company" element={<Company />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route path="/project" element={<Project />} />
+          <Route path="/company" element={<Company />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projectores/:id" element={<Projectores />} />
         </Routes>
 
       </Container>
