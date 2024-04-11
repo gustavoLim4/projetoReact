@@ -5,10 +5,10 @@ import Input from "../form/Input";
 import Submit from "../form/Submit";
 
 
-function ProjectForm({ handleSubmit , btnText , projectdata }) {
+function ProjectForm({ handleSubmit , btnText , projectData }) {
 
   const [categories , setCategories] = useState ([])
-  const [project , setProject] = useState (projectdata || {})
+  const [project , setProject] = useState (projectData || {})
 
   useEffect(() => {
     fetch("http://localhost:5000/categories", {

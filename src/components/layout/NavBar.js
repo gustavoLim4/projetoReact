@@ -11,21 +11,21 @@ function NavBar() {
         <Link to="/">
           <img src={logo} alt="Costs" />
         </Link>
-        <ul className ={styles.list}>
+
+        <ul className={styles.list}>
           <li className={styles.item}>
             <Link to="/">Home</Link>
           </li>
           <li className={styles.item}>
             <Link to="/projects">Projetos</Link>
-          </li> 
-        
+          </li>
+
           <li className={styles.item}>
             <Link to="/company">Empresa</Link>
           </li>
           <li className={styles.item}>
             <Link to="/contact">Contato</Link>
           </li>
-        
         </ul>
       </Container>
     </nav>
