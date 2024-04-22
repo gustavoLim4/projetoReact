@@ -1,28 +1,6 @@
 {
   "projects": [
     {
-      "id": "dc03",
-      "name": "lima",
-      "budget": "2000",
-      "category": {
-        "id": "3",
-        "name": "Designer"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "74cc",
-      "name": "gustavo",
-      "budget": "3000",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "948a",
       "name": "gusziin",
       "budget": "2000",
@@ -30,7 +8,7 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
+      "cost": 400,
       "services": []
     },
     {
@@ -40,6 +18,24 @@
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "gustavo",
+          "description": "gustavinho ",
+          "cost": "2000",
+          "id": "540786df-266c-494e-955f-58862eaa2baa"
+        }
+      ]
+    },
+    {
+      "id": "9c4a",
+      "name": "guti",
+      "budget": "200000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": []
